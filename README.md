@@ -1,13 +1,16 @@
 # Exercises_Altkom
 
-Pierwsze zadanie:
+Pierwsze zadanie (w trakcie budowy):
 
-    NameDay - Rest Api , wystawia trzy endpointy wybierz Swagger UI
+    NameDay - Rest Api , wystawia cztery endpointy wybierz Swagger UI
             http://localhost:8080/swagger-ui.html
     aby móc zobaczyć jakie.
     
     Aplikacja umieszczona jest również na HEROKU pod adresem:
         https://name-day.herokuapp.com/swagger-ui.html
+    pod adrsem:     
+        https://name-day.herokuapp.com/nameDay 
+     jest umieszczony widok oparty na bibliotece Thymeleaf.(w trakcie budowy)     
         
         Za każdym razem gdy HEROKU podnosi aplikację, ładowane są dane startowe
      z lokalnej kolekcji. Heroku "zabija" aplikację po kilkunastu minutach bez-
