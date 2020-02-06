@@ -12,9 +12,12 @@ Pierwsze zadanie (w trakcie budowy):
         https://name-day.herokuapp.com/nameDay 
      jest umieszczony widok oparty na bibliotece Thymeleaf.(w trakcie budowy)     
         
-        Za każdym razem gdy HEROKU podnosi aplikację, ładowane są dane startowe
-     z lokalnej kolekcji. Heroku "zabija" aplikację po kilkunastu minutach bez-
-     czynności i w momencie kolejnego uderzenia w adres api, HEROKU podnosi apkę.
+        Za każdym razem gdy HEROKU podnosi aplikację, ładowane są prawdziwe dane 
+     z bazy H2. Heroku "zabija" aplikację po kilkunastu minutach bezczynności 
+     i w momencie kolejnego uderzenia w adres api, HEROKU podnosi apkę.
      Zatem trwa to chwilę dłużej, ale tylko w chwili odpalania aplikacji.
+     
+        Modyfikacja oraz usuwanie danych z bazy, możliwe jest po zalogowaniu się.
+     Obecnie logowanie ustawione jest na identyfikację poprzez konto Githuba.
      
      Miłej zabawy!
